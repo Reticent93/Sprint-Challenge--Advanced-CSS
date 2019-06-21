@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+Adaptive is stagnant and responsive flows.
 
 2. Describe what it means to be mobile first vs desktop first.
+Min width is first for mobile because that is what you're building it for. desktop first is vice versa
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+62.5% makes it easier to use for a responsive website. 
 
 4. How would you describe preprocessing to someone new to CSS?
+The devil! It gives you short cuts to code faster.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+the ease of use.It makes coding faster. writing it is hard for me.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -120,7 +125,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ ] Push your changes and create a pull request if you haven't already.
 
-In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
+In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not
 
 ## Stretch Problems
 
