@@ -1,27 +1,33 @@
 // Navigation code here
 
 .intro {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 48%;
-    margin: 20px;
-    padding: 10px;
-    font-size: 16px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 170px;
+  padding: 10px;
+  font-size: 16px;
 
-    h1 {
-        font-size: 32px;
-        align-content: center;
-      
+  h1 {
+    font-size: 37px;
+    align-content: center;
+    margin-left: 70px;
+  }
+
+  nav {
+    .nav-tag-pmixin(@display:flex, @justify: flex-start,@direction: column,) {
+      display: @display;
+      justify-content: @color;
+      flex-direction: @direction;
+    } 
+   @media @moble {
+      margin: 95vw;
+      flex-wrap: wrap;
     }
+  }
+  }
 
-    nav{
-        display: flex;
-        justify-content: space-evenly;
-
-    }
-
-    a {
-        margin: 10pxx;
-    }
+  a {
+    margin-left: 30px;
+  }
 }
