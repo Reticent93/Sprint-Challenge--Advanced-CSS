@@ -2,11 +2,9 @@
 
 .intro {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   flex-direction: column;
-  margin-left: 170px;
-  padding: 10px;
-  font-size: 16px;
+  margin: 20px;
 
   h1 {
     font-size: 37px;
@@ -20,12 +18,11 @@
       justify-content: @color;
       flex-direction: @direction;
     } 
-   @media @moble {
+     @media @mobile {
       margin: 95vw;
-      flex-wrap: wrap;
     }
   }
-  }
+  
 
   a {
     margin-left: 30px;
