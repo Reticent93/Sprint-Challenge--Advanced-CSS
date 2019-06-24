@@ -5,19 +5,36 @@ header {
   padding: 10px;
   align-content: center;
 
-  @media @mobile {
-    width: 95vw;
-
-  }
+  // @media @mobile {
+  //   width: 95vw;
+    
+  // }
 }
+
 .home {
-  .intro {
-    h1 {
-      padding: 15px;
+
+  @media @mobile {
+    width: 90vw;
+  }
+  // .intro {
+  //   h1 {
+  //     padding: 15px;
+  //   }
+
+  //   p {
+  //     padding: 0 15px;
+  //   }
+  // }
+
+  .space {
+    @media @mobile {
+      width: 90vw;
     }
 
-    p {
-      padding: 0 15px;
+    img {
+      @media @mobile {
+        width: 90vw;
+      }
     }
   }
 
@@ -85,13 +102,14 @@ header {
         height: auto;
         border-radius: 10px;
       }
-      // .btn {
-      //   .btn-tag (#22283a, 150px) {
-      //     height: 30px;
-      //   }
-      // }
+
     }
 
 
+  }
+  button {
+    .btn-tag (#22283a, 150px) {
+      height: 30px;
+    }
   }
 } // home

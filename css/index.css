@@ -161,19 +161,15 @@ p {
   margin: 0 auto;
 }
 .intro {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
   margin: 20px;
 }
 .intro h1 {
   font-size: 37px;
-  align-content: center;
-  margin-left: 70px;
+  margin-bottom: 100px;
 }
 @media (max-width: 500px) {
   .intro nav {
-    margin: 95vw;
+    margin: 100px;
   }
 }
 .intro a {
@@ -196,15 +192,19 @@ header {
   align-content: center;
 }
 @media (max-width: 500px) {
-  header {
-    width: 95vw;
+  .home {
+    width: 90vw;
   }
 }
-.home .intro h1 {
-  padding: 15px;
+@media (max-width: 500px) {
+  .home .space {
+    width: 90vw;
+  }
 }
-.home .intro p {
-  padding: 0 15px;
+@media (max-width: 500px) {
+  .home .space img {
+    width: 90vw;
+  }
 }
 .home .space-images {
   display: flex;
